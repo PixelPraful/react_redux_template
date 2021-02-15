@@ -1,9 +1,8 @@
 import React from 'react';
-import { Route, Switch, withRouter, Redirect } from 'react-router-dom';
-import { connect } from 'react-redux';
+import { Route, Switch, Redirect } from 'react-router-dom';
+
 
 import Home from './components/Home';
-import asyncComponent from './hoc/asynComponent/asyncComponent';
 
 class App extends React.Component {
 
